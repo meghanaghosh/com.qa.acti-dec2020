@@ -43,7 +43,7 @@ public class DriverScript {
 		
 		//Method to launch a browser
 		
-		@Test  //Once you done with unit testing, ensure to remove @Test annonation, else it will open dual browsers
+		//@Test  //Once you done with unit testing, ensure to remove @Test annonation, else it will open dual browsers
 		public static void initBrowser()
 		{
 			String browser = prop.getProperty("browser"); //browser key is coming from config.properties file
